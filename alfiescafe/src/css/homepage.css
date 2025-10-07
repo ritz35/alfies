@@ -1,0 +1,24 @@
+.icons_wrapper{
+    background-color: var(--secondary-colour);
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 10vh;
+    gap: 15rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.allergy_icon, .gf_icon, .milk_icon{
+    width: 10vw;
+    height: 10vw;
+    object-fit: contain;
+}
+
+/* .allergy_icon{
+    width: 10vw;
+    height: 10vw;
+    
+} */
