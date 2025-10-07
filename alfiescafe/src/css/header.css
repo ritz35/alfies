@@ -1,7 +1,7 @@
 .header_wrapper {
     /* border: 3px solid red; */
     height: 15vh;
-    background-color: var(--primary-colour);
+    background-color: var(--primary-colour-transparent);
 
     display: grid;
     grid-template-columns: 40% 60%;
