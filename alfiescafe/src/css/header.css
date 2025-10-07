@@ -1,0 +1,32 @@
+.header_wrapper {
+    /* border: 3px solid red; */
+    height: 15vh;
+    background-color: var(--primary-colour);
+
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.img {
+    /* border: 3px solid blue; */
+    object-fit: cover;
+    height: 100%;
+    width: 50%;
+    /* overflow: hidden; */
+}
+
+.img_logo {
+    width: 50%;
+    height: 100%;
+    margin-left: 10vw;
+    object-fit: contain;
+}
+
+.navbar_wrapper {
+    /* border: 3px solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 1; */
+
+}

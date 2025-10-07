@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* border: 3px solid green; */
+}
+.nav_links{
+    list-style: none;
+    display: flex;
+    gap: 10vw;
+}
+.nav_links a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1vw;
+    transition: all 0.5s ease-out;
+}
+.nav_links a:hover{
+    color: beige;
+    transform: scale(2);
+}
