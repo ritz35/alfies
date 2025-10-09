@@ -28,6 +28,11 @@ function Homepage() {
                     <p>We have many alternative milk; Almond, Soy, Coconut, Oat, and Trim milk.</p>
                 </div>
             </div>
+            <div className="matcha_wrapper">
+                <div className="matcha_title">
+                    <h1 className="matcha_title_h1">try our new matcha!!!</h1>
+                </div>
+            </div>
         </div>
     )
 }
