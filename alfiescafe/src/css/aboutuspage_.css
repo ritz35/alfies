@@ -1,0 +1,49 @@
+.about_us_title{
+    font-size: 60px;
+}
+.coffee_heading{
+    color: var(--secondary-colour);
+    font-size: 50px;
+    margin-top: 5vh;
+}
+.aboutuspage_content{
+    text-align: center;
+}
+.coffee_content{
+    color: var(--primary-colour);
+    margin-bottom: 5vh;
+}
+.coffee_content_wrapper{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+.AU_title_wrapper{
+    position: relative;
+}
+.AU_CB_image{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    display: block;
+}
+.AU_title_section{
+    position: absolute;
+    background-color: var(--primary-colour-transparent);
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.AU_title_wrapper::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+

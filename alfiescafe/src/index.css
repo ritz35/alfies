@@ -9,3 +9,8 @@ body{
 h1, p{
     color: white;
 }
+/* inheriting colour from what we used before */
+a{
+    /* text-decoration: none; */
+    color: inherit;
+}
