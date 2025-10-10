@@ -1,24 +1,6 @@
 .about_us_title{
     font-size: 60px;
 }
-.coffee_heading{
-    color: var(--secondary-colour);
-    font-size: 50px;
-    margin-top: 5vh;
-}
-.aboutuspage_content{
-    text-align: center;
-}
-.coffee_content{
-    color: var(--primary-colour);
-    margin-bottom: 5vh;
-}
-.coffee_content_wrapper{
-    margin-top: 5vh;
-    margin-bottom: 10vh;
-    margin-left: 25vw;
-    margin-right: 25vw;
-}
 .AU_title_wrapper{
     position: relative;
 }
@@ -45,5 +27,22 @@
     inset: 0;
     background: rgba(0,0,0,0.3);
 }
-
+.coffee_heading{
+    color: var(--secondary-colour);
+    font-size: 50px;
+    margin-top: 5vh;
+}
+.aboutuspage_content{
+    text-align: center;
+}
+.coffee_content{
+    color: var(--primary-colour);
+    margin-bottom: 5vh;
+}
+.coffee_content_wrapper{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
 
