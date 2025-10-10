@@ -17,10 +17,24 @@
     object-fit: contain;
 }
 .matcha_wrapper{
-    height: 50vh;
+    /* height: 50vh; */
     /* background-color: var(--secondary-colour-transparent); */
+    text-align: center;
 }
 .matcha_title_h1{
     color: var(--secondary-colour-transparent);
     font-size: 10vh;
+}
+
+/* FOOD IMAGES SECTION */
+.HP_FoodImages_wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1vw;
+    margin-bottom: 5vh;
+}
+.HP_foodimages{
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
 }
