@@ -1,0 +1,61 @@
+/* =================TITLE SECTIONS======================== */
+.CPage_title{
+    font-size: 60px;
+}
+.CPage_title_wrapper{
+    position: relative;
+}
+
+.CPage_img_cafe{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    
+    display: block;
+}
+
+.CPage_title_section{
+    position: absolute;
+    background-color: var(--primary-colour-transparent);
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.CPage_title_wrapper::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+.CPage_subheading_wrapper{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+/* =================CONTENT======================== */
+.CPage_content_wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 5vh;
+    /* border: 3px solid red; */
+    margin-left: 21vw;
+    margin-right: 26vw;
+}
+.hours_wrapper, .contact_details, .contact_title, .contact_intro{
+    color: var(--secondary-colour);
+}
+.contact_intro{
+    text-align: center;
+}
+.contact_title{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.contact_details{
+    margin-top: 5vh;
+}
