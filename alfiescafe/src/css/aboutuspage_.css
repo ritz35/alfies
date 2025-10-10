@@ -1,3 +1,4 @@
+/* =================TITLE SECTION======================== */
 .about_us_title{
     font-size: 60px;
 }
@@ -27,6 +28,7 @@
     inset: 0;
     background: rgba(0,0,0,0.3);
 }
+/* =================CONTENT SECTION======================== */
 .coffee_heading{
     color: var(--secondary-colour);
     font-size: 50px;
