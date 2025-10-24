@@ -42,7 +42,7 @@
 
     .nav_links {
         padding: 0;
-        position: absolute;
+        position: fixed;
         top: 7vh;
         left: 0;
         width: 100%;
@@ -54,13 +54,13 @@
         text-align: center;
         gap: 2rem;
         transition: height 0.3s ease;
-        z-index: 5;
+        z-index: 100;
     }
 
     .nav_links.active {
         padding: 0;
         padding-top: 5vh;
-        height: 25vh;
+        height: 100%;
         /* expand when open */
     }
 
