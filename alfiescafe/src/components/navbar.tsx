@@ -1,17 +1,28 @@
-import { Link } from 'react-router-dom'
-import '../css/navbar.css'
+import { useState } from "react";
+import { Link } from 'react-router-dom';
 
+//burger icon
+import { FaBars, FaTimes } from "react-icons/fa";
+import '../css/navbar.css';
 
-// we need to change these to react router doms (Links) later
+function Navbar() {
+    const [isOpen, setIsOpen] = useState(false);
+    const toggleMenu = () => setIsOpen(!isOpen);
+    const closeMenu = () => setIsOpen(false);
 
-function Navbar(){
-    return(
+    return (
         <nav className='navbar'>
-            <ul className='nav_links'>
-                <li><Link to="/">home</Link></li>
-                <li><Link to="/about">about</Link></li>
-                <li><Link to="/menu">menu</Link></li>
-                <li><Link to="/contact">contact us</Link></li>
+            {/* burger icon */}
+            <div className="burger_icon" onClick={toggleMenu}>
+                {isOpen ? <FaTimes /> : <FaBars />}
+            </div>
+
+            {/* navbar */}
+            <ul className={`nav_links ${isOpen ? 'active' : ""}`}>
+                <li><Link to="/" onClick={closeMenu}>home</Link></li>
+                <li><Link to="/about" onClick={closeMenu}>about</Link></li>
+                <li><Link to="/menu" onClick={closeMenu}>menu</Link></li>
+                <li><Link to="/contact" onClick={closeMenu}>contact us</Link></li>
             </ul>
         </nav>
     )

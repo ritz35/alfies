@@ -1,16 +1,18 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     /* border: 3px solid green; */
 }
-.nav_links{
+
+.nav_links {
     list-style: none;
     display: flex;
     gap: 10vw;
 }
-.nav_links a{
+
+.nav_links a {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -18,7 +20,51 @@
     font-size: 1vw;
     transition: all 0.5s ease-out;
 }
-.nav_links a:hover{
+
+.nav_links a:hover {
     color: beige;
     transform: scale(2);
+}
+
+/* hamburger icon (hidden by default) */
+.burger_icon {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+/* mobile styles */
+@media (max-width: 900px) {
+    .burger_icon {
+        display: block;
+        color: var(--secondary-colour);
+    }
+
+    .nav_links {
+        padding: 0;
+        position: absolute;
+        top: 7vh;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background-color: var(--secondary-colour);
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+        transition: height 0.3s ease;
+        z-index: 5;
+    }
+
+    .nav_links.active {
+        padding: 0;
+        padding-top: 5vh;
+        height: 25vh;
+        /* expand when open */
+    }
+
+    .nav_links a {
+        font-size: 1.2rem;
+    }
 }
