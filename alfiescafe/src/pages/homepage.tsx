@@ -35,10 +35,10 @@ function Homepage() {
                     <p>We have many alternative milk; Almond, Soy, Coconut, Oat, and Trim milk.</p>
                 </div>
             </div>
-            {/* MATCHA SECTION */}
-            <div className="matcha_wrapper">
-                <div className="matcha_title">
-                    <h1 className="matcha_title_h1">1 North City Road, Rototuna North</h1>
+            {/* ADDRESS INFORMATION SECTION */}
+            <div className="info_wrapper">
+                <div className="info_title">
+                    <h1 className="info_title_h1">1 North City Road, Rototuna North</h1>
                 </div>
             </div>
             {/* FOOD IMAGES SECTION */}
